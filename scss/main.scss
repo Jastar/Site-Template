@@ -1,0 +1,13 @@
+﻿@mixin font ($size:null, $height:null, $family:null, $color:null) {
+	font-size: $size;
+	line-height: $height;
+	font-family: $family;
+	color: $color;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
