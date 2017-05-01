@@ -1,0 +1,8 @@
+﻿@font-face { font-family: 'FontAwesome'; src: local('FontAwesome'); }
+
+@mixin font ($size:null, $height:null, $family:null, $color:null) {
+	font-size: $size;
+	line-height: $height;
+	font-family: $family;
+	color: $color;
+}
